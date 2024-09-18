@@ -59,6 +59,7 @@ const Header = observer(({ getSiteData }) => {
             >
               首页
             </a>
+          </div>
         </div>
         <div className="status">
           <div className={`icon ${status.siteState}`} />
