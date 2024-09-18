@@ -24,19 +24,19 @@ const Footer = () => {
         <p>
           <CustomLink
             text={Package.alia}
-            to="https://github.com/imsyy/site-status"
+            to="https://github.com/jstar0/site-status"
           />
           &nbsp;Version&nbsp;{Package.version}
         </p>
         <p>
           基于&nbsp;
           <CustomLink to="https://uptimerobot.com/" text="UptimeRobot" />
-          &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
+          &nbsp;接口&nbsp;|&nbsp;由&nbsp;<CustomLink to="https://github.com/imsyy/site-status" text="無名" />&nbsp;提供模板
         </p>
         <p>
           Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to="https://www.mcxin.top" text="心纪元" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
