@@ -51,15 +51,6 @@ const Header = observer(({ getSiteData }) => {
       <div className="container">
         <div className="menu">
           <span className="logo">{siteName}</span>
-
-          <div className="nav">
-            <a
-              href="https://www.mcxin.top" target="_blank" rel="noreferrer"
-              className="nav-item"
-            >
-              首页
-            </a>
-          </div>
         </div>
         <div className="status">
           <div className={`icon ${status.siteState}`} />
